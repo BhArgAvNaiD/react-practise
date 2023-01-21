@@ -1,0 +1,59 @@
+.home_container{
+    background-image: url('./assets/home/background-home-desktop.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    /* width:100vw; */
+    height:100vh;
+    
+}
+
+.main-container{
+    max-width:100%;
+    width:1300px;
+    margin:0 auto;
+    /* margin-top:200px; */
+}
+
+.medium{
+    text-transform: uppercase;
+    font-size: 32px;
+    color:hsl(233,8%,79%);
+    margin:0;
+}
+
+.btn{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border:none;
+    font-family: 'Cormorant Garamond', serif;
+    cursor: pointer;
+    color:hsl(236,13%,42%);
+}
+
+.big{
+    font-size: 150px;
+    color:white;
+    font-family: 'Cormorant Garamond', serif;
+    margin:0;
+}
+
+.small{
+    color:hsl(233,8%,79%);
+    margin:0;
+}
+
+.c1{
+    flex:0.3;
+    margin-top: 300px;
+}
+
+.flex-r{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.c2{
+    margin-top:300px;
+}
